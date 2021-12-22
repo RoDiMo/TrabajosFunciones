@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class ER4_12 {
 
 	/**
+	 * 
 	 * Programa que calcule el enésimo términ ode la serie de fibonacci
 	 * @author Roberto Eduardo Diaz Morffi
 	 * @version 1.0
