@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class ER4_6 {
 
 	/**
+	 * 
 	 * Programa que comprueba si el caracter introducido es una vocal
 	 * @author Roberto Eduardo Diaz Morffi
 	 * @version 1.0
@@ -23,6 +24,7 @@ public class ER4_6 {
 	}
 
 	/**
+	 * 
 	 * Metodo que determina si el caracter pasado por teclado es una vocal
 	 * @param sc Parametro que se pasa por teclado
 	 * @return

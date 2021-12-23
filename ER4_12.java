@@ -27,7 +27,11 @@ public class ER4_12 {
 
 	}
 
-
+	/**
+	 * 
+	 * @param num Número al que se le sacara el enesimo valor de la serie de fibonacci
+	 * @return Enesimo valor de la serie de fibonacci
+	 */
 	public static int fibo(int num) {
 		
 		int res;
