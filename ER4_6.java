@@ -2,48 +2,57 @@ package funcionesEntrega;
 
 import java.util.Scanner;
 
+/**
+ * 
+ * Programa que comprueba mediante un booleano si un numero es primo
+ * @author Roberto Eduardo Diaz Morffi
+ * @version 1.0
+ * @since 22/12/2021
+ *
+ */
+
 public class ER4_6 {
 
-	/**
-	 * 
-	 * Programa que comprueba si el caracter introducido es una vocal
-	 * @author Roberto Eduardo Diaz Morffi
-	 * @version 1.0
-	 * @since 22/12/2021
-	 *
-	 */
-	
 	public static void main(String[] args) {
+		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println(" La letra es vocal: " + vocal(sc));
+		System.out.println("Introduce un número");
+		int num = sc.nextInt();
 		
-		
-		
+		System.out.println("El número es primo: " + esPrimo(num));
 
 	}
 
+	
 	/**
 	 * 
-	 * Metodo que determina si el caracter pasado por teclado es una vocal
-	 * @param sc Parametro que se pasa por teclado
+	 * @param sc Valor introducido por teclado
 	 * @return
 	 */
-	public static boolean vocal(Scanner sc) {
+	
+	public static boolean esPrimo(int num) {
+		boolean primo = true;
 		
-		boolean vocal = false;
 		
-		System.out.println("Introduzca una letra y te dire si es vocal");
-		String cadena = sc.next();
-		char letra = cadena.charAt(0);
+
+		int i = 2;
 		
-		if (letra == 'A' || letra == 'E' || letra == 'I' || letra == 'O' || letra == 'U' ||
-			letra == 'a' ||	letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u') 
-			vocal = true;
-		else 
-			vocal = false;
+		//Si el numero es 0 o 1 el numero no es primo (El primer numero primo es 2)
+		if (num == 0 || num == 1) {
+			primo = false;
+		} else {
+			//Si se encuentra algun divisor entre 2 y el numero significa que el numero no es primo
+			while (i < num && primo == true) {
+				if(num % i == 0) {
+					primo = false;
+					
+				}
+				i++;
+			}
+		}
 		
-		return  vocal;
+		return primo;
 	}
 	
 }
