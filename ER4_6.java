@@ -26,9 +26,9 @@ public class ER4_6 {
 
 	
 	/**
-	 * 
+	 * Metodo que determina si un numero pasado por paramtro es primo o no
 	 * @param sc Valor introducido por teclado
-	 * @return
+	 * @return True o False, en dependencia de si el numero es primo o no
 	 */
 	
 	public static boolean esPrimo(int num) {

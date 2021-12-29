@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * Metodo que muestra los divisores primos de un numero introducido por teclado.
- * @author Roberto
+ * @author Roberto Eduardo Diaz Morffi
  * @version 1.0
  * @since 28/12/2021
  */

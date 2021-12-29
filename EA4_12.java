@@ -38,6 +38,8 @@ public class EA4_12 {
 	
 	/**
 	 * 
+	 * Metodo que determina la distancia euclidea de un punto a partir de 4 valores pasados por parametro
+	 * (x1, y1, x2, y2)
 	 * @param x1 Posicion x1 del punto (x1, y1)
 	 * @param y1 Posicion y1 del punto (x1, y1)
 	 * @param x2 Posicion x2 del punto (x2, y2)

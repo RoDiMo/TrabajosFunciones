@@ -6,7 +6,7 @@ public class ER4_12 {
 
 	/**
 	 * 
-	 * Programa que calcule el enésimo términ ode la serie de fibonacci
+	 * Programa que calcule el enésimo término de la serie de fibonacci
 	 * @author Roberto Eduardo Diaz Morffi
 	 * @version 1.0
 	 * @since 23/12/2021
@@ -28,7 +28,7 @@ public class ER4_12 {
 	}
 
 	/**
-	 * 
+	 * Metodo que devuelve la serie de fobonacci hasta su enesimo valor
 	 * @param num Número al que se le sacara el enesimo valor de la serie de fibonacci
 	 * @return Enesimo valor de la serie de fibonacci
 	 */

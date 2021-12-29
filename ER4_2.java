@@ -23,7 +23,7 @@ public class ER4_2 {
 	}
 	
 	/**
-	 * 
+	 * Metodo que muestra los numeros comprendidos entre 2 enteros
 	 * @param sc Introduce un valor pasado por teclado
 	 */
 	
